@@ -1,0 +1,16 @@
+.banner {
+  padding: 200px 0;
+  background-image: url('../../images/background.png');
+}
+
+
+.banner h1,
+.banner p {
+  color: white;
+}
+
+
+.banner .btn-wrapper {
+  margin-top: 24px;
+}
+
