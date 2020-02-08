@@ -13,19 +13,26 @@
 @import url("components/banner.css");
 @import url("components/cards.css");
 
+html {
+  position: relative;
+  min-height: 100%;
+}
+
 body {
   margin: 0;
   padding-bottom: 200px;
-  font-family: Open Sans;
+  font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, sans-serif;
   background-color: rgb(240,240,240);
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4 {
-  font-family: Poppins;
+  /*font-family: Poppins;*/
 }
 
 a {
   text-decoration: none;
+  color: #FDD146;
 }
 
 /* Custom design below! */
@@ -33,15 +40,19 @@ a {
 img {
   width: 100%;
   align-items: center;
+  border-radius: 4px;
+  margin-top: 0 auto;
 }
 
 .flexbox {
   display: flex;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: flex-end;
 }
 
 .list-inline {
     list-style: none;
     padding-left: 0;
 }
+
+

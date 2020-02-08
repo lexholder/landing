@@ -1,16 +1,15 @@
 .banner {
   padding: 100px 100px;
-  background-image: url('../../images/food.jpg');
+  opacity: 0.9;
+  object-fit: cover;
+  background-position: 25%;
+  background-image: url('../../images/flower.jpg');
+  height: 330px;
 }
 
 
 .banner h1,
 .banner p {
-  color: white;
-}
-
-
-.banner .btn-wrapper {
-  margin-top: 24px;
+  color: #FECD2E;
 }
 

@@ -1,5 +1,12 @@
-.container {
+.block {
   width: 800px;
   margin: 0 auto;
-  border: 10 px solid black;
+  border: 20 px solid black;
+  border-radius: 24px;
 }
+
+.grid {
+  width: 33.3%;
+  display: inline-block;
+}
+

@@ -1,53 +1,3 @@
-.card-category {
-  display: flex;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../../images/food.jpg);
-  height: 300px;
-  align-items: center;
-  justify-content: center;
-  border-radius: 4px;
-  box-shadow: 0 0 32px rgba(0,0,0,0.3);
-
-}
-
-.card-category h2 {
-  color: white;
-}
-
-
-.card-product {
-  display: flex;
-  background: white;
-  align-items: center;
-}
-
-.card-product img {
-  width: 200px;
-  margin-right: 24px;
-}
-
-.card-product h2,
-.card-product p {
-  margin: 0;
-}
-
-
-.card-trip img  {
-  width: 100%;
-}
-
-.card-trip-footer {
-  padding: 16px;
-  background-color: white;
-  display: flex;
-  justify-content: space-around;
-  align-items: flex-end;
-}
-
-.card-trip-footer h2,
-.card-trip-footer p {
-  margin: 0;
-}
-
 .card {
   padding: 0;
   align-items: center;
@@ -68,12 +18,43 @@
   border: 2 px black solid;
 }
 
-.cards-footer {
-  background-color: white;
-  display: flex;
+.footer {
+  padding: 40px 0px 24px 0px;
+  background-image: url("../../images/graffiti.jpg");
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 150px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.footer-text {
+  padding: 0;
   align-items: center;
   justify-content: center;
+  margin: 10px;
   text-align: center;
-  width: 100%;
+  color: #FDD146;
   border: 2 px black solid;
+}
+
+.blurb {
+  background-color: white;
+  align-items: center;
+  border-radius: 4px;
+  width: 270px;
+  box-shadow: 0 5px 20px rgb(183, 210, 231);
+  padding: 30px;
+  margin-top: 50px;
+}
+
+.blurb2 {
+  background-color: white;
+  align-items: center;
+  border-radius: 4px;
+  width: 600px;
+  box-shadow: 0 5px 20px rgb(183, 210, 231);
+  padding: 30px;
+  margin-bottom: 50px;
 }
